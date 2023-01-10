@@ -1,5 +1,5 @@
 // run `node index.js` in the terminal
-function printFunction(number) {
+const printFunction = (number) => {
   //iterating from 1 to 100
   for (var i = 1; i <= number; i++) {
     //if multiple of 3 and 5 both
@@ -16,6 +16,6 @@ function printFunction(number) {
     }
   }
   return;
-}
+};
 
 printFunction(100);
